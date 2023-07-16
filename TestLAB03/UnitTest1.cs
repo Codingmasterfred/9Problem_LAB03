@@ -1,6 +1,5 @@
 using Problem_LAB03;
 using System.Text.RegularExpressions;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
 namespace TestLAB03
