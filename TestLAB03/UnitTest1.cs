@@ -47,7 +47,7 @@ namespace TestLAB03
             var mockUserInput = string.Join("\n", numbers);
             var mockConsoleInput = new System.IO.StringReader(mockUserInput);
             System.Console.SetIn(mockConsoleInput);
-
+             
             // Redirect console output to Test Output window
             var testOutput = new System.IO.StringWriter();
             Console.SetOut(testOutput);
