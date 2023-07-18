@@ -18,7 +18,7 @@ namespace TestLAB03
         {
             int total = 1;
             string[] array = inlineData.Split(" ");
-            int[] ArrayOfThree = new int[3];
+            int[] ArrayOfThree = new int[3]; 
             for (int i = 0; i < ArrayOfThree.Length; i++)
             {
                 if (!Regex.IsMatch(array[i], @"^-?\d+$"))
